@@ -25,5 +25,53 @@ main h3 {
 
 main p {
   font-family: "Roboto", sans-serif;
+  font-size: 12px;
   margin-top: 0;
 }
+
+/* Groups & Items */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.group-decoration {
+  background-color: #CD853F;
+  border-color: #CD853F;
+}
+
+.group-by-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.group-by-column {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  text-align: center
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+.item-narrow-row1-col1 {
+  width: 250px;
+  max-width: 250px;
+  border-width: 1px;
+}
+
+.item-decoration {
+  background-color: #CD853F;
+  margin: 10px;
+}
+
