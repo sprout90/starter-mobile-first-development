@@ -14,4 +14,4 @@ My focus as a student was to convert an existing page into a layout that is now 
 * Improve to first row to collapse into a single column for smaller screen sizes
 
 ## Where Can I See It?
-To view the page, please click this [Coffee]https://sprout90.github.io/starter-first-mobile-development/ link.
+To view the page, please click this [Coffee](https://sprout90.github.io/starter-first-mobile-development/) link.
