@@ -13,3 +13,5 @@ My focus as a student was to convert an existing page into a layout that is now 
 * Improve the centered images in 1st row to line up under the 'Perk Up Your Attention' title.
 * Improve to first row to collapse into a single column for smaller screen sizes
 
+## Where Can I See It?
+To view the page, please click this [Coffee]https://sprout90.github.io/starter-first-mobile-development/ link.
