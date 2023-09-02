@@ -1,3 +1,5 @@
+/* General Styles */
+
 main {
   margin-top: 60px;
 }
@@ -25,34 +27,23 @@ main h3 {
 
 main p {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
   margin-top: 0;
 }
 
-/* Groups & Items */
+.bg-primary {
+  background-color: #775f47;
+}
+
+.group img {
+  width: 100%;
+}
+
+/* Groups & Items  (Mobile First) */
 
 .group {
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
-}
-
-.group-decoration {
-  background-color: #CD853F;
-  border-color: #CD853F;
-}
-
-.group-by-row {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 100px;
-}
-
-.group-by-column {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 100px;
-  text-align: center
 }
 
 .item {
@@ -62,16 +53,17 @@ main p {
 
 .item-double {
   flex: 2;
-}
-
-.item-narrow-row1-col1 {
-  width: 250px;
-  max-width: 250px;
-  border-width: 1px;
-}
-
-.item-decoration {
-  background-color: #CD853F;
   margin: 10px;
 }
 
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
